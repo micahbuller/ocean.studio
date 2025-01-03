@@ -23,8 +23,8 @@ const sharp = localFont({
 })
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Tabla Rasa`,
+  description: `For those who like a fresh board.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
