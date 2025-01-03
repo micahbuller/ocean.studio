@@ -20,15 +20,14 @@ export function HeroPost({ title, coverImage, date, excerpt, slug }: Props) {
         <div className="hidden sm:block">
           <CoverImage title={title} src={coverImage} slug={slug} />
         </div>
-        <Link className="sm:hidden flex w-full aspect-[3/4]" href={`/posts/${slug}`} aria-label={title}>
+        <Link className="relative sm:hidden flex w-full h-[50vh] bg-white" href={`/posts/${slug}`} aria-label={title}>
           <Image
             src={coverImage}
             alt={`Cover Image for ${title}`}
             className={cn("shadow-sm w-full", {
               "hover:shadow-lg transition-shadow duration-200 object-cover": slug,
             })}
-            width={630}
-            height={630}
+            fill
           />
         </Link>
       </div>
