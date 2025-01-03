@@ -28,6 +28,7 @@ export default async function Post(props: Params) {
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
+            coverVideo={post.coverVideo}
             date={post.date}
             author={post.author}
           />
