@@ -1,6 +1,6 @@
 ---
 title: "Basecamp"
-excerpt: "Max Ascher at his home breaks in Santa Teresa Costa Rica."
+excerpt: "Max Ascher surfing his home breaks in Santa Teresa."
 coverImage: "/assets/blog/basecamp/cover.jpeg"
 coverVideo: "https://www.youtube.com/embed/Vm2xym2ZCr4"
 date: "2025-01-03T05:35:07.322Z"
