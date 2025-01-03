@@ -1,8 +1,8 @@
-import Avatar from "@/app/_components/avatar";
 import CoverImage from "@/app/_components/cover-image";
 import { type Author } from "@/interfaces/author";
 import Link from "next/link";
-import DateFormatter from "./date-formatter";
+import Image from "next/image";
+import cn from "classnames";
 
 type Props = {
   title: string;
@@ -13,26 +13,32 @@ type Props = {
   slug: string;
 };
 
-export function HeroPost({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  slug,
-}: Props) {
+export function HeroPost({ title, coverImage, date, excerpt, slug }: Props) {
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} />
+        <div className="hidden sm:block">
+          <CoverImage title={title} src={coverImage} slug={slug} />
+        </div>
+        <Link className="sm:hidden flex w-full aspect-[3/4]" href={`/posts/${slug}`} aria-label={title}>
+          <Image
+            src={coverImage}
+            alt={`Cover Image for ${title}`}
+            className={cn("shadow-sm w-full", {
+              "hover:shadow-lg transition-shadow duration-200 object-cover": slug,
+            })}
+            width={630}
+            height={630}
+          />
+        </Link>
       </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
+      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 ">
         <div>
           <h3 className="font-display mb-4 text-4xl lg:text-5xl leading-tight">
             <Link href={`/posts/${slug}`} className="hover:underline">
               {title}
             </Link>
           </h3>
-          
         </div>
         <div>
           <p className="font-body text-lg leading-relaxed mb-4">{excerpt}</p>

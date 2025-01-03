@@ -13,18 +13,14 @@ export default function Index() {
 
   return (
     <main>
+    <div className="bg-black flex w-full text-white mb-20 md:mb-28">
       <Container>
         <Intro />
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        />
-        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        <HeroPost title={heroPost.title} coverImage={heroPost.coverImage} date={heroPost.date} author={heroPost.author} slug={heroPost.slug} excerpt={heroPost.excerpt} />
       </Container>
-    </main>
+    </div>
+    <Container>{morePosts.length > 0 && <MoreStories posts={morePosts} />}</Container>
+  </main>
   );
 }
+
