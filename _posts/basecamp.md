@@ -11,7 +11,9 @@ ogImage:
   url: "/assets/blog/basecamp/cover.jpeg"
 ---
 
-## *"An inner dialogue leading up to the filming of Basecamp featuring Max Ascher".*
+## *"An inner dialogue leading up to the filming of Basecamp featuring Max Ascher in the crowded jungle town of Santa Teresa Costa Rica".*
+
+![Santa Teresa Traffic](/assets/blog/basecamp/santatraffic.jpg)
 
 I wanted to start filming surf videos and featuring different surfers in Santa Teresa for a while, but a cocktail of my own social anxiety and perfectionism always kept me from doing anything with any of them. Then there was always a twinge of “me not being good enough of a surfer” to even hang with “the crew” of good surfers, a feeling that comes from growing up in Santa Cruz where a 13-year-old would get yelled out of the water for trying to get some waves. Needless to say, it was a rough mental battle to even get the courage to get the process actually started.
 
@@ -22,6 +24,9 @@ I remember when it did. I was sitting at a coffee bar in House of Somos, talking
 So, I do.
 
 My hands start sweating as I walk up and compliment this senior in high school about the burrito he’s eating and tell him I’d like to film a part with him. He seemed a little in shock but welcomed the whole idea. Next thing I know, we’re targeting all the good days coming up, and I’m throwing my own surfing time in the hat to film someone I just met.
+
+
+![Santa Teresa Traffic](/assets/blog/basecamp/beachfilming.jpg)
 
 ### I learned a few things from the experience.
 
