@@ -23,8 +23,8 @@ const sharp = localFont({
 })
 
 export const metadata: Metadata = {
-  title: `Tabla Rasa`,
-  description: `For those who like a fresh board.`,
+  title: `Ocean Studio`,
+  description: `For those who like a fresh story.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
