@@ -3,7 +3,7 @@ title: "Basecamp"
 excerpt: "Max Ascher surfing his home breaks in Santa Teresa."
 coverImage: "/assets/blog/basecamp/cover.jpeg"
 coverVideo: "https://www.youtube.com/embed/Vm2xym2ZCr4"
-date: "2025-01-03T05:35:07.322Z"
+date: "2026-07-21T13:00:00.000Z"
 author:
   name: Micah Buller
   picture: "/assets/blog/authors/micah.jpeg"
